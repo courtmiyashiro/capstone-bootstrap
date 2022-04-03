@@ -59,6 +59,15 @@ a.nav-link {
     color:black;
 }
 
+.fa-user {
+    font-size:20px;
+}
+
+.dropdown-item {
+    font-family: 'Raleway', sans-serif;
+
+}
+
 .fa-facebook-f {
     font-size:25px;
     color:#73637F;
