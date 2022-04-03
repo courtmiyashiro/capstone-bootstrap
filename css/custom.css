@@ -68,14 +68,18 @@ a.nav-link {
 
 }
 
-.jobtitle, .internshiptitle {
-    font-family: 'Roboto', sans-serif;
+.internships, .jobs {
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+
     
 }
 
 .type {
     font-size:12px;
 }
+
+
 
 
 
