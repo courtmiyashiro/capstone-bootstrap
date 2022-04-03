@@ -68,6 +68,25 @@ a.nav-link {
 
 }
 
+.jobtitle, .internshiptitle {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.type {
+    font-size:12px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .fa-facebook-f {
     font-size:25px;
     color:#73637F;
