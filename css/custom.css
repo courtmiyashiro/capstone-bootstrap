@@ -25,9 +25,14 @@ h4, h5, h6, p {
     background-color:#73637F;
     border:none;
 }
-.btn-primary:hover {
+.btn-primary:hover, {
     color:white;
     background-color:#9D87AE;
+}
+a.btn-primary:active {
+    color:white;
+    background-color:#9D87AE;
+
 }
 .btn-outline-primary, .btn-outline-secondary {
     font-family: 'Raleway', sans-serif;
@@ -54,19 +59,19 @@ a.nav-link {
     color:black;
 }
 
-.fa-envelope {
-    font-size:30px;
-    color:black;
-}
-.fa-phone {
-    font-size:30px;
-    color:black;
+.fa-facebook-f {
+    font-size:25px;
+    color:#73637F;
+    padding-right:10px;
 }
 
-#footer {
-    background-color:#E4E0E7;    
+
+#sticky-footer { 
     color:black;
     font-family: 'Raleway', sans-serif;
     font-size:15px;
-    
+    line-height:0.2cm;
 }
+
+
+
