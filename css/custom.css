@@ -68,15 +68,23 @@ a.nav-link {
 
 }
 
+.headertext {
+    font-size:18px;
+}
+
 .internships, .jobs {
     font-family: 'Raleway', sans-serif;
     font-size:25px;
-
-    
 }
 
 .type {
     font-size:12px;
+}
+
+.opportunitydetails {
+    font-size:15px;
+    line-height:0.3cm;
+
 }
 
 
