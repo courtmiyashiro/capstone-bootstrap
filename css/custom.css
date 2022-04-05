@@ -29,11 +29,12 @@ h4, h5, h6, p {
     color:white;
     background-color:#9D87AE;
 }
-a.btn-primary:active {
+.btn-primary:target {
     color:white;
     background-color:#9D87AE;
-
 }
+
+
 .btn-outline-primary, .btn-outline-secondary {
     font-family: 'Raleway', sans-serif;
     background-color:white;
@@ -45,6 +46,14 @@ a.btn-primary:active {
     background-color:#9D87AE;
     
 }
+
+.btn-outline-primary:active, .btn-outline-secondary:active{
+    color:white;
+    background-color:#9D87AE;
+    
+}
+
+
 .form-control {
     font-family: 'Roboto', sans-serif;
     color:#B2B2B2;
