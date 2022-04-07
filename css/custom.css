@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 
+.loginbackground {
+    background-image:url(/images/jmubackground.png);
+    background-position:left;
+}
 
 h1, h2, h3 {
     font-family: 'Raleway', sans-serif;
@@ -100,18 +104,6 @@ a.nav-link {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .fa-facebook-f {
     font-size:25px;
     color:#73637F;
@@ -124,6 +116,23 @@ a.nav-link {
     font-family: 'Raleway', sans-serif;
     font-size:15px;
     line-height:0.2cm;
+}
+
+.test {
+    color:red;
+    font-size:90px;
+}
+.test2 {
+    color:blue;
+    font-size:25px;
+}
+.test3 {
+    color:purple;
+    font-size:22px;
+}
+.test4 {
+    color:green;
+    font-size:20px;
 }
 
 
