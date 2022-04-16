@@ -106,6 +106,30 @@ a.joblink:hover, a.opportunity:hover {
     color:#9D87AE;
 }
 
+.display-5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.display-6 {
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    color:#73637F;
+
+}
+
+.scholarshiplist {
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+
+}
+
+a.email:link, a.email:visited {
+    color:#73637F;
+}
+
+a.email:hover {
+    color:#9D87AE;
+}
 
 
 
