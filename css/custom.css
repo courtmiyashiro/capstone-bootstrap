@@ -98,11 +98,11 @@ a.nav-link {
     font-family: 'Roboto', sans-serif;
 }
 
-a.joblink:link, a.joblink:visited {
+a.joblink:link, a.joblink:visited, a.opportunity:link, a.opportunity:visited {
     color:black;
 }
 
-a.joblink:hover {
+a.joblink:hover, a.opportunity:hover {
     color:#9D87AE;
 }
 
