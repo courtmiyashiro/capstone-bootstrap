@@ -31,6 +31,16 @@ h4, h5, h6, p {
     border:none;
 }
 
+.btn-outline-primary {
+    color:black;
+    border-color:black;
+}
+
+a.btn-outline-primary:hover {
+    background-color:#9D87AE;
+
+}
+
 .btn-primary:hover {
     background-color:#9D87AE;
 }
@@ -64,6 +74,11 @@ a.nav-link {
 
 .dropdown-item {
     font-family: 'Raleway', sans-serif;
+}
+
+a.dropdown-item:active{
+    font-family: 'Raleway', sans-serif;
+    background-color:#9D87AE;
 
 }
 
@@ -129,6 +144,32 @@ a.email:link, a.email:visited {
 
 a.email:hover {
     color:#9D87AE;
+}
+
+.scholarship-card, .scholarship-card-body {
+    margin-top:20px;
+    margin-left:50px;
+    width:60vh;
+    height:50vh;
+}
+
+.scholarship-card-header {
+    background-color:none;
+}
+
+.mentorname, .studentname {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+}
+
+.text-secondary {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+.contactinfo, .biography {
+    font-family: 'Raleway', sans-serif;
+    color:black;
 }
 
 
