@@ -86,6 +86,35 @@ a.nav-link {
 
 }
 
+.jobheading {
+    font-family: 'Raleway', sans-serif;
+    color:#450085;
+    text-decoration:underline;
+
+}
+
+.job-list {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+a.joblink:link, a.joblink:visited {
+    color:black;
+}
+
+a.joblink:hover {
+    color:#9D87AE;
+}
+
+
+
+
+
+
+
+
+
+
 .fa-facebook-f {
     font-size:25px;
     color:#73637F;
