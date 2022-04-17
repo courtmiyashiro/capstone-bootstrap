@@ -264,6 +264,17 @@ a.email:hover {
     font-size:20px;
 }
 
+.previous {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+a.previous:hover, a.previous:visited{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+
 .fa-facebook-f {
     font-size:25px;
     color:#73637F;
