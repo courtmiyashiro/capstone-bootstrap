@@ -60,6 +60,11 @@ a.btn-outline-primary:hover {
 
 }
 
+.form-control:focus {
+    border-color:#73637F;
+    box-shadow:none;
+}
+
 .nav-link {
     font-family: 'Raleway', sans-serif;
 }
@@ -184,6 +189,16 @@ a.email:hover {
     color:red;
     text-align:center;
 }
+
+.editprofile {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+}
+
+.input-group {
+    width:50vh;
+}
+
 
 
 
