@@ -111,15 +111,15 @@
 
             <div class="row">
                 <div class="col-4 offset-lg-2 pt-3 pb-2">
-                    <h4>The Ole School Scholarship Fund is designed to award:</h4>
+                    <h5>The Ole School Scholarship Fund is designed to award:</h5>
                     <ul class="scholarshiplist">
                         <li>1 scholarship to an <u>incoming freshman</u></li>
-                        <li>1 scholarship to a <u>retention JMU student</u></li>
+                        <li>1 scholarship to a <u>current JMU student</u></li>
                     </ul>
 
                     <br>
 
-                    <h4>If you would like to apply, you must submit the following:</h4>
+                    <h5>If you would like to apply, you must submit the following:</h5>
                     <ul class="scholarshiplist">
                         <li>Resume</li>
                         <li>Current Transcript</li>
@@ -132,17 +132,35 @@
                     </h5>
                 </div>
 
-                <div class="scholarship-card col-lg-5 pt-4"> <!--Apply card starts-->
-                    <div class="scholarship-card-header text-center">
-                        <h5>Apply Now</h5>
+               
+
+                 
+                    
+                    
+                 <div id="scholarshipcard" class="card col-lg-5 offset-lg-1" style="width: 25rem;">
+                      <div class="scholarship-card-header text-center pt-4">
+                        <h4 class="applynow">Apply Now</h4>
                     </div>
 
-                    <div class="scholarship-card-body"><p>Would you like to apply?</p><form>
-                        <div class="form-check"> <input class="form-check-input" id="twoFactorOn" type="radio" name="twoFactor" checked="">
-                            <label class="form-check-label" for="twoFactorOn">Yes</label></div><div class="form-check"> <input class="form-check-input" id="twoFactorOff" type="radio" name="twoFactor"> <label class="form-check-label" for="twoFactorOff">No</label></div>
+                    <div class="scholarship-card-body pt-3"><p>Would you like to apply?</p><form>
+                        <div class="form-check"> <input class="form-check-input" id="twoFactorOn" type="radio" name="twoFactor" checked="checkedd">
+                            <label class="form-check-label" for="twoFactorOn">Yes</label></div>
                             
-                          
+                            <div class="form-check"> <input class="form-check-input" id="twoFactorOff" type="radio" name="twoFactor"> <label class="form-check-label" for="twoFactorOff">No</label></div>
                         </form>
+
+                        <div class="input-group pt-3 text-center">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload Transcript</label>
+                          </div>
+
+                          <div class="input-group pt-4 text-center mb-4">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">Upload Essay</label>
+                          </div>
+
+                          <button type="button col justify-content-center d-grid" class="btn btn-primary">SUBMIT</button>
+                        </div>
                     </div>
                 </div> <!--Apply modal ends-->
 
