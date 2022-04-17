@@ -65,7 +65,7 @@ a.btn-outline-primary:hover {
 
 }
 
-.form-control:focus {
+.form-control:focus, .form-select:focus{
     border-color:#73637F;
     box-shadow:none;
 }
@@ -143,7 +143,6 @@ a.joblink:hover, a.opportunity:hover {
 }
 
 
-
 .scholarshiplist {
     font-family: 'Roboto', sans-serif;
     font-size:20px;
@@ -211,9 +210,21 @@ a.email:hover {
     height:30vh;
 }
 
+.createjobs, .createopps {
+    width:10px;
+}
 
+.form-select {
+    width:50vh;
+}
 
+.btn-danger {
+    font-family: 'Raleway', sans-serif;
+}
 
+.table {
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
