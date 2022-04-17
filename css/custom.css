@@ -230,6 +230,18 @@ a.email:hover {
     width:50vh;
 }
 
+.form-select {
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option:hover, .memberoption:hover {
+    background-color: #C3B3CF;
+
+}
+
+
 
 
 
