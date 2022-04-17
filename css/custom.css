@@ -29,24 +29,29 @@ h4, h5, h6, p {
     font-family: 'Raleway', sans-serif;
     background-color:#9D87AE;
     border:none;
+    box-shadow:none;
 }
 
 .btn-outline-primary {
     color:black;
     border-color:black;
+    box-shadow:none;
 }
 
 a.btn-outline-primary:hover {
     background-color:#9D87AE;
+    box-shadow:none;
 
 }
 
 .btn-primary:hover {
     background-color:#9D87AE;
+    box-shadow:none;
 }
 
 .btn-primary:visited {
     background-color:#9D87AE;
+    box-shadow:none;
 }
 
 #errorlabel {
@@ -137,6 +142,8 @@ a.joblink:hover, a.opportunity:hover {
 
 }
 
+
+
 .scholarshiplist {
     font-family: 'Roboto', sans-serif;
     font-size:20px;
@@ -199,6 +206,10 @@ a.email:hover {
     width:50vh;
 }
 
+.img-thumbnail {
+    width:30vh;
+    height:30vh;
+}
 
 
 
