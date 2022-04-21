@@ -2,57 +2,96 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="description" content="Student Dashboard">
+		<meta name="description" content="Jobs">
 	  <meta name="author" content="Madison Solutions">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>TEST Dashboard</title>
+		<title>Jobs</title>
 
 		<!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- CSS -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
+     <!--Java Script for counter feature--> 
+      <script>
+          $(document).ready(function() {
+
+        $('.counter').each(function () {
+        $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+        }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+        $(this).text(Math.ceil(now));
+}
+});
+});
+
+});
+      </script> 
+</head>
+
+        
+        <!-- CSS -->
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+        
 		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
 
-    <!-- Icons -->
-    <script src="https://kit.fontawesome.com/b51d9e9335.js" crossorigin="anonymous"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+         <!-- Icons -->
+         <script src="https://kit.fontawesome.com/b51d9e9335.js" crossorigin="anonymous"></script>
+        
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
  
 
-          
-
 	</head>
-    
-    <body class="publicpage text-center">
 
-        <div class="cover-container d-flex w-100 h-500 p-3 pt-5 mx-auto flex-column">
+	<body class="publicbackground"> 
         
-          <main role="main" class="inner cover">
-            <h1 class="display-1">FIND YOUR FUTURE</h1>
-            <h4>The Ole School Alumni Group is a grass roots, non-profit organization envisioned by three African American James Madison University (JMU) alumni that graduated in the 1980’s. 
-                <br>
+       <!--banner blurb-->
+       <div class="topmsg">
+           <div class="findfuture">
+               Find your Future
+           </div>
+           <p class="blurb">Ole School Alumni Group offers a professional network and recruitment liaison for underrepresented students at James Madison University. </p>
+           <div class="col-md-12 text-center">
+            <a href="#" class="button">LOG IN</a>
+            <a href="#" class="button">REGISTER</a>
+ 
+ 
+           
+        </div>
+       </div>
+        <div class="top" style="margin-top:15px; "> 
+            
+    <div class="successes">
+        <div class="row">
+            <!-- counter -->
+            <div class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated" data-wow-duration="300ms" style="visibility: visible; animation-duration: 300ms; animation-name: fadeInUp;"> <i class="bi bi-cash-coin medium-icon" ></i> <span id="anim-number-pizza" class="counter-number"></span> <span class="timer counter alt-font appear" data-to="980" data-speed="7000">$200,000.00</span>
+                <p class="counter-title">Given in Scholarships</p>
+            </div> <!-- end counter -->
+            <!-- counter -->
+            <div class="col-md-3 col-sm-6 bottom-margin text-center counter-section wow fadeInUp sm-margin-bottom-ten animated" data-wow-duration="600ms" style="visibility: visible; animation-duration: 600ms; animation-name: fadeInUp;"> <i class="bi bi-award medium-icon"></i> <span class="timer counter alt-font appear" data-to="980" data-speed="7000">6</span> <span class="counter-title">Jobs and Internship Opportunities Facilitated </span> </div> <!-- end counter -->
+            <!-- counter -->
+            <div class="col-md-3 col-sm-6 bottom-margin-small text-center counter-section wow fadeInUp xs-margin-bottom-ten animated" data-wow-duration="900ms" style="visibility: visible; animation-duration: 900ms; animation-name: fadeInUp;"> <i class="bi bi-building medium-icon"></i><span class="timer counter alt-font appear" data-to="810" data-speed="7000">3</span> <span class="counter-title">Company Partners</span> </div> <!-- end counter -->
+            <!-- counter -->
+            <div class="col-md-3 col-sm-6 text-center counter-section wow fadeInUp animated" data-wow-duration="1200ms" style="visibility: visible; animation-duration: 1200ms; animation-name: fadeInUp;"> <i class="bi bi-person-fill medium-icon"></i> <span class="timer counter alt-font appear" data-to="600" data-speed="7000">4</span> <span class="counter-title">Members</span> </div> <!-- end counter -->
 
-                OSASG offers a professional network and recruitment liaison for underrrepresented students.
-            </h4>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
-            </p>
-          </main>
-    
+        </div>
+    </div>
+</section>
+        
 
-    
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-        <script src="../../assets/js/vendor/popper.min.js"></script>
-        <script src="../../dist/js/bootstrap.min.js"></script>
-      
-    
-    </body>
+        
+
+
+     
+
+	</div>
+		
+	</body>
+</html>
