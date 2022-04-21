@@ -1,9 +1,23 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
+.publicpage {
+    background-image:url(/images/publicbackground.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top;
+    
 
+}
 .loginbackground {
     background-image:url(/images/jmubackground.png);
     background-position:left;
+}
+
+.carousel {
+    max-width: 900vh;
+    height:20px;
+   margin:auto;
+   padding-bottom:40px;
 }
 
 h1, h2, h3 {
@@ -78,7 +92,7 @@ a.nav-link {
     color:black;
 }
 
-.fa-user {
+.fa-user, .fa-bell {
     font-size:20px;
 }
 
@@ -201,9 +215,6 @@ a.email:hover {
     color:black;
 }
 
-.input-group {
-    width:50vh;
-}
 
 .img-thumbnail {
     width:30vh;
@@ -280,6 +291,12 @@ a.previous:hover, a.previous:visited{
     margin-right:auto;
     width:40vh;
 }
+
+.fa-suitcase, .fa-graduation-cap, .fa-lightbulb, .fa-bookmark, .fa-list, .fa-search, .fa-bullhorn, .fa-user-check, .fa-hand-point-up{
+    font-size:60px;
+    color:#73637F;
+}
+
 
 
 
