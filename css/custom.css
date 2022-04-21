@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 .publicpage {
-    background-image:url(/images/public-background.png);
+    background-image:url(/images/wilsonquad1.png);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:top;
@@ -12,6 +12,11 @@
     background-image:url(/images/jmubackground.png);
     background-position:left;
     background-size: cover;
+}
+
+.bi-arrow-right-circle-fill {
+    font-size:50px;
+    color:white;
 }
 
 
@@ -350,7 +355,7 @@ margin-left: 50px;
 
 .counter-section span.counter {
     font-size: 40px;
-    color: black;
+    color: white;
     text-shadow:1px 1px white;
     line-height: 60px;
     display: block;
@@ -364,8 +369,7 @@ margin-left: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-family:'Raleway,' sans-serif;
-    color:black;
-    text-shadow:1px 1px white;
+    color:white;
     font-weight:bold;
 
 
@@ -402,24 +406,19 @@ margin-left: 50px;
     margin-bottom: 15px !important
 }
 
-.container {
-    margin-top: 200px;
-
-}
-
 .numbers {
     padding-bottom:20px;
     font-family: 'Raleway,' sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    color:black;
+    color:white;
 }
 
 .successes {
-    padding-top:60px;
+    padding-top:30px;
     height:300px;
-    color:black;
+    color:white;
     font-family:'Raleway,' sans-serif;
 }
 
@@ -443,8 +442,8 @@ margin-left: 50px;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    color:black;
-    text-shadow: 2px 2px white;
+    color:white;
+    text-shadow: 3px 3px black;
  
 
 }
@@ -457,7 +456,7 @@ font-weight: bold;
 display: flex;
 justify-content: center;
 color:black;
-text-shadow: 1px 1px white;
+
 font-weight:bold;
 
 }
