@@ -1,0 +1,459 @@
+
+   
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+.publicpage {
+    background-image:url(/images/publicbackground.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:top;
+    
+
+}
+.loginbackground {
+    background-image:url(/images/jmubackground.png);
+    background-position:left;
+    background-size: cover;
+}
+
+.publicbackground {
+        background-image:url(/images/publicbackground.png);
+        
+        
+       
+}
+
+.carousel {
+    max-width: 900vh;
+    height:20px;
+   margin:auto;
+   padding-bottom:40px;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h4, h5, h6, p {
+    font-family: 'Roboto', sans-serif;
+}
+.center-block {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    width:220px;
+    margin-top:30px;
+}
+#login {
+    color:black;
+    font-size:3px;
+}
+
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+  
+
+
+.btn-primary {
+    font-family: 'Raleway', sans-serif;
+    background-color:#9D87AE;
+    border:none;
+    box-shadow:none;
+}
+
+.btn-outline-primary {
+    color:black;
+    border-color:black;
+    box-shadow:none;
+}
+
+a.btn-outline-primary:hover {
+    background-color:#9D87AE;
+    box-shadow:none;
+
+}
+
+.btn-primary:hover {
+    background-color:#73637F;
+    box-shadow:none;
+}
+.btn-primary:active {
+    color:black;
+    box-shadow:none;
+}
+
+.btn-primary:visited {
+    background-color:#9D87AE;
+    box-shadow:none;
+}
+
+#errorlabel {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    color:#B2B2B2;
+
+}
+
+.form-control:focus, .form-select:focus{
+    border-color:#73637F;
+    box-shadow:none;
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+
+a.nav-link {
+    color:black;
+}
+
+.fa-user, .fa-bell {
+    font-size:20px;
+}
+
+.dropdown-item {
+    font-family: 'Raleway', sans-serif;
+}
+
+a.dropdown-item:active{
+    font-family: 'Raleway', sans-serif;
+    background-color:#9D87AE;
+
+}
+
+.headertext {
+    font-size:18px;
+}
+
+.internships, .jobs {
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+}
+
+.type {
+    font-size:12px;
+}
+
+.opportunitydetails {
+    font-size:15px;
+    line-height:0.3cm;
+
+}
+
+.jobheading {
+    font-family: 'Raleway', sans-serif;
+    color:#450085;
+    text-decoration:underline;
+
+}
+
+.job-list {
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+a.joblink:link, a.joblink:visited, a.opportunity:link, a.opportunity:visited {
+    color:black;
+}
+
+a.joblink:hover, a.opportunity:hover {
+    color:#9D87AE;
+}
+
+.display-5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.display-6 {
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    color:#73637F;
+
+}
+
+
+.scholarshiplist {
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+
+}
+
+a.email:link, a.email:visited {
+    color:#73637F;
+}
+
+a.email:hover {
+    color:#9D87AE;
+}
+
+.scholarship-card, .scholarship-card-body {
+    margin-top:10px;
+    margin-left:50px;
+    width:60vh;
+    height:50vh;
+}
+
+.scholarship-card-header {
+    background-color:none;
+}
+
+.mentorname, .studentname {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+}
+
+.text-secondary {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+.contactinfo, .biography {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+}
+
+.bookmarkheader {
+    font-family: 'Raleway', sans-serif;
+    text-decoration:underline;
+    color:#73637F;
+
+}
+
+.status {
+    font-family: 'Raleway', sans-serif;
+    color:red;
+    text-align:center;
+}
+
+.editprofile {
+    font-family: 'Raleway', sans-serif;
+    color:black;
+}
+
+
+.img-thumbnail {
+    width:30vh;
+    height:30vh;
+}
+
+.createjobs, .createopps {
+    width:10px;
+}
+
+.form-select {
+    width:50vh;
+}
+
+.btn-danger {
+    font-family: 'Raleway', sans-serif;
+}
+
+.table {
+    font-family: 'Roboto', sans-serif;
+}
+
+#searchtable {
+    width:50vh;
+}
+
+.form-select {
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option:hover, .memberoption:hover {
+    background-color: #C3B3CF;
+
+}
+
+.applynow {
+    font-family: 'Raleway', sans-serif;
+}
+
+#scholarshipcard {
+    height:55vh;
+}
+
+.input-group {
+    width:50vh;
+    padding-right:10vh;
+}
+
+.input-group-text {
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+}
+
+.scholarship-card-body {
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+}
+
+.previous {
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+a.previous:hover, a.previous:visited{
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+#chatrecipient, #message {
+    font-family: 'Roboto', sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    width:40vh;
+}
+
+.fa-suitcase, .fa-graduation-cap, .fa-lightbulb, .fa-bookmark, .fa-list, .fa-search, .fa-bullhorn, .fa-user-check, .fa-hand-point-up{
+    font-size:60px;
+    color:#73637F;
+}
+
+
+
+
+
+.fa-facebook-f {
+    font-size:25px;
+    color:#73637F;
+    padding-right:10px;
+}
+
+
+#sticky-footer { 
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-size:15px;
+    line-height:0.2cm;
+}
+
+.purecounter {
+font-size: 55px;
+line-height: 30px;
+display: block;
+font-weight: 700;
+color: #222222;
+margin-left: 50px;
+}
+
+.counter-section i {
+    display: block;
+    margin: 0 0 10px
+}
+
+.counter-section span.counter {
+    font-size: 28px;
+    color: #000;
+    line-height: 60px;
+    display: block;
+    font-family: 'raleway';
+    font-weight:bold;
+    letter-spacing: 2px
+}
+
+.counter-title {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.counter-icon {
+    top: 25px;
+    position: relative
+}
+
+.counter-style2 .counter-title {
+    letter-spacing: 0.55px;
+    float: left
+}
+
+.counter-style2 span.counter {
+    letter-spacing: 0.55px;
+    float: left;
+    margin-right: 10px
+}
+
+.counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 0 10px 0 0
+}
+
+.counter-subheadline span {
+    float: right
+}
+
+.medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important
+}
+
+.container {
+    margin-top: 200px;
+
+}
+
+.numbers {
+    padding-bottom:20px;
+    font-family: 'raleway';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.successes {
+    padding:20px;
+    margin-top:40px;
+    margin:auto;
+  
+    height:340px;
+   
+
+}
+.carousel {
+    max-width: 850px;
+   margin:auto;
+   padding-bottom:40px;
+}
+
+
+
+.topmsg {
+    padding-top:100px;
+    padding-bottom:70px;
+}
+
+.findfuture {
+    padding-bottom:20px;
+    font-size: 40px;
+    font-family: 'raleway';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.blurb {
+padding-bottom:20px;
+font-family: 'roboto';
+font-size:20px;
+font-weight: bold;
+display: flex;
+justify-content: center;
+}
