@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Add your custom CSS declarations below  */
 .publicpage {
-    background-image:url(/images/publicbackground.png);
+    background-image:url(/images/public-background.png);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:top;
@@ -14,18 +14,12 @@
     background-size: cover;
 }
 
-.publicbackground {
-        background-image:url(/images/publicbackground.png);
-        
-        
-       
-}
 
 .carousel {
     max-width: 900vh;
     height:20px;
-   margin:auto;
-   padding-bottom:40px;
+    margin:auto;
+    padding-bottom:40px;
 }
 
 h1, h2, h3 {
@@ -323,11 +317,7 @@ a.previous:hover, a.previous:visited{
     font-size:60px;
     color:#73637F;
 }
-
-
-
-
-
+s
 .fa-facebook-f {
     font-size:25px;
     color:#73637F;
@@ -356,36 +346,45 @@ margin-left: 50px;
     margin: 0 0 10px
 }
 
+
+
 .counter-section span.counter {
-    font-size: 28px;
-    color: #000;
+    font-size: 40px;
+    color: black;
+    text-shadow:1px 1px white;
     line-height: 60px;
     display: block;
     font-family: 'raleway';
     font-weight:bold;
-    letter-spacing: 2px
+    letter-spacing: 2px;
 }
 
 .counter-title {
     font-size: 20px;
     letter-spacing: 2px;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family:'Raleway,' sans-serif;
+    color:black;
+    text-shadow:1px 1px white;
+    font-weight:bold;
+
+
 }
 
 .counter-icon {
-    top: 25px;
+    top: 30px;
     position: relative
 }
 
 .counter-style2 .counter-title {
     letter-spacing: 0.55px;
-    float: left
+    float: left;
 }
 
 .counter-style2 span.counter {
     letter-spacing: 0.55px;
     float: left;
-    margin-right: 10px
+    margin-right: 10px;
 }
 
 .counter-style2 i {
@@ -399,7 +398,7 @@ margin-left: 50px;
 }
 
 .medium-icon {
-    font-size: 40px !important;
+    font-size: 50px !important;
     margin-bottom: 15px !important
 }
 
@@ -410,48 +409,55 @@ margin-left: 50px;
 
 .numbers {
     padding-bottom:20px;
-    font-family: 'raleway';
+    font-family: 'Raleway,' sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
+    color:black;
 }
 
 .successes {
-    padding:20px;
-    margin-top:40px;
-    margin:auto;
-  
-    height:340px;
-   
-
+    padding-top:60px;
+    height:300px;
+    color:black;
+    font-family:'Raleway,' sans-serif;
 }
+
+
 .carousel {
-    max-width: 850px;
+   max-width: 850px;
    margin:auto;
    padding-bottom:40px;
 }
 
-
-
 .topmsg {
-    padding-top:100px;
-    padding-bottom:70px;
+    padding-top:80px;
+    padding-bottom:30px;
 }
 
 .findfuture {
+    padding-top:100px;
     padding-bottom:20px;
     font-size: 40px;
     font-family: 'raleway';
     font-weight: bold;
     display: flex;
     justify-content: center;
+    color:black;
+    text-shadow: 2px 2px white;
+ 
 
 }
 .blurb {
+padding-top:10px;
 padding-bottom:20px;
-font-family: 'roboto';
-font-size:20px;
+font-family: 'Roboto,' sans-serif;
+font-size:25px;
 font-weight: bold;
 display: flex;
 justify-content: center;
+color:black;
+text-shadow: 1px 1px white;
+font-weight:bold;
+
 }
